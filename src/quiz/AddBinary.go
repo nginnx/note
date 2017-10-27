@@ -1,4 +1,4 @@
-package quiz
+package main
 
 /*Given two binary strings, return their sum (also a binary string).
 
@@ -7,7 +7,7 @@ a = "11"
 b = "1"
 Return "100".*/
 
-func AddBinary(a string, b string) string {
+func addBinary(a string, b string) string {
 	var arr_a []byte
 	var arr_b []byte
 	if len(a) > len(b) {
