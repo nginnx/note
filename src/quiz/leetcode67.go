@@ -1,4 +1,4 @@
-package main
+package quiz
 
 /*Given two binary strings, return their sum (also a binary string).
 
@@ -38,6 +38,7 @@ func addBinary(a string, b string) string {
 				carry--
 			}
 		}
+		fmt.Printf("%v %v \n", result, carry)
 		i--
 		j--
 	}
