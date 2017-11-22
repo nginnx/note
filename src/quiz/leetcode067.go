@@ -1,4 +1,4 @@
-package quiz
+package main
 
 /*Given two binary strings, return their sum (also a binary string).
 

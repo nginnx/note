@@ -1,4 +1,4 @@
-package leetcode
+package main
 
 func reverse(x int) int {
 

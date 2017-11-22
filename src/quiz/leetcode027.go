@@ -1,4 +1,4 @@
-package leetcode
+package main
 
 //3,2,2,3
 //2,2,3,3

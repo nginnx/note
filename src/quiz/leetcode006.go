@@ -1,4 +1,5 @@
-package leetcode
+package main
+
 
 /*
 	1     7
