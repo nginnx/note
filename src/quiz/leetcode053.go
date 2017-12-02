@@ -12,7 +12,7 @@ the contiguous subarray [4,-1,2,1] has the largest sum = 6.
 */
 
 func main() {
-	fmt.Printf("%v", maxSubArray([]int{-2, -1}))
+	fmt.Printf("%v", maxSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}))
 }
 
 func maxSubArray(nums []int) int {
@@ -28,6 +28,7 @@ func maxSubArray(nums []int) int {
 		} else {
 			curSum += nums[i]
 		}
+		fmt.Printf("%v \n", curSum)
 		//fmt.Printf("cur %v  i  %v \n", curSum, nums[i])
 		if curSum > maxSum {
 			maxSum = curSum
