@@ -1,22 +1,22 @@
 package main
 
 func main() {
-	print(climbStairs(100))
+	print(climbStairs(1000))
 }
 
-var test map[int]int = make(map[int]int)
+var dummy map[int]int = make(map[int]int)
 
 func climbStairs(n int) int {
 
 	if n == 1 || n == 2 || n == 0 {
 		return n
 	}
-	_, ok := test[n]
+	_, ok := dummy[n]
 	if ok {
-		return test[n]
+		return dummy[n]
 	} else {
-		test[n] = climbStairs(n-1) + climbStairs(n-2)
-		return test[n]
+		dummy[n] = climbStairs(n-1) + climbStairs(n-2)
+		return dummy[n]
 	}
 
 }
